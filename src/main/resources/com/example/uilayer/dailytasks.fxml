@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="370.0" prefWidth="570.0" style="-fx-background-color: #A0D6D0;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.uilayer.DailyTasks">
+    <children>
+        <Button fx:id="backButtonWorkerHomePage" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onClickbackButtonWorkerHomePage" prefHeight="13.0" prefWidth="58.0" style="-fx-background-color: WHITE;" text="BACK" />
+      <TextArea fx:id="replyTextArea" layoutX="84.0" layoutY="237.0" prefHeight="42.0" prefWidth="403.0" />
+      <Label fx:id="todaysTaskLabel" layoutX="84.0" layoutY="99.0" prefHeight="36.0" prefWidth="403.0" style="-fx-background-color: PINK;" />
+      <Text layoutX="219.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TODAY'S TASK:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Button fx:id="buttonDone" layoutX="227.0" layoutY="289.0" mnemonicParsing="false" onAction="#onClickbuttonDone" prefHeight="13.0" prefWidth="58.0" style="-fx-background-color: WHITE;" text="DONE" />
+      <Button fx:id="buttonSubmit" layoutX="292.0" layoutY="289.0" mnemonicParsing="false" onAction="#onClickbuttonSubmit" prefHeight="13.0" prefWidth="58.0" style="-fx-background-color: WHITE;" text="SUBMIT" />
+      <TextArea fx:id="senderTextArea" layoutX="84.0" layoutY="177.0" prefHeight="42.0" prefWidth="403.0" />
+        <Label fx:id="fromLabel" layoutX="84.0" layoutY="135.0" prefHeight="17.0" prefWidth="76.0" style="-fx-font-weight: bold; -fx-text-fill: red;" />
+        <Label fx:id="statusLabel" layoutX="14.0" layoutY="331.0" prefHeight="25.0" prefWidth="111.0" textFill="#dba50d">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Text layoutX="265.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MESSAGE:" />
+      <Text layoutX="275.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="REPLY:" />
+    </children>
+</AnchorPane>

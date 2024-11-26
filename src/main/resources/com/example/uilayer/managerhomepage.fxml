@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="370.0" prefWidth="570.0" style="-fx-background-color: #A0D6D0;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.uilayer.ManagerController">
+    <children>
+        <Button fx:id="backButtonLogIn" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onClickBackButtonLogin" prefHeight="13.0" prefWidth="58.0" style="-fx-background-color: WHITE;" text="BACK" />
+      <Button fx:id="buttonAssignTasks" layoutX="200.0" layoutY="120.0" mnemonicParsing="false" onAction="#onClickbuttonAssignTasks" prefHeight="25.0" prefWidth="170.0" style="-fx-background-color: WHITE;" text="ASSIGN TASKS" />
+      <Button fx:id="MessageVet" layoutX="200.0" layoutY="154.0" mnemonicParsing="false" onAction="#onClickMessageVet" prefHeight="25.0" prefWidth="170.0" style="-fx-background-color: WHITE;" text="SEND MESSAGE TO VET" />
+      <Button fx:id="buttonWasteCollection" layoutX="200.0" layoutY="188.0" mnemonicParsing="false" onAction="#onClickbuttonWasteCollection" prefHeight="25.0" prefWidth="170.0" style="-fx-background-color: WHITE;" text="WASTE COLLECTION" />
+      <Button fx:id="buttonProductionReport" layoutX="200.0" layoutY="224.0" mnemonicParsing="false" onAction="#onClickbuttonProductionReport" prefHeight="25.0" prefWidth="170.0" style="-fx-background-color: WHITE;" text="PRODUCTION REPORT" />
+      <Button fx:id="buttonIssueReport" layoutX="200.0" layoutY="261.0" mnemonicParsing="false" onAction="#onClickbuttonIssueReport" prefHeight="25.0" prefWidth="170.0" style="-fx-background-color: WHITE;" text="ISSUE REPORT" />
+    </children>
+</AnchorPane>

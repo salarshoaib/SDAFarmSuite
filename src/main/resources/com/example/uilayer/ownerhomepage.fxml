@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="370.0" prefWidth="570.0" style="-fx-background-color: #A0D6D0;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.uilayer.OwnerController">
+    <children>
+        <Button fx:id="backButtonLogIn" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onClickBackButtonLogin" prefHeight="13.0" prefWidth="58.0" style="-fx-background-color: WHITE;" text="BACK" />
+      <Button fx:id="buttonMonitorFarm" layoutX="210.0" layoutY="130.0" mnemonicParsing="false" onAction="#onClickbuttonMonitorFarm" prefHeight="25.0" prefWidth="170.0" style="-fx-background-color: WHITE;" text="MONITOR FARM" />
+      <Button fx:id="buttonFarmExpenses" layoutX="210.0" layoutY="161.0" mnemonicParsing="false" onAction="#onClickbuttonFarmExpenses" prefHeight="25.0" prefWidth="170.0" style="-fx-background-color: WHITE;" text="VIEW FARM EXPENSES" />
+      <Button fx:id="buttonSalesReport" layoutX="210.0" layoutY="193.0" mnemonicParsing="false" onAction="#onClickbuttonSalesReport" prefHeight="25.0" prefWidth="170.0" style="-fx-background-color: WHITE;" text="SALES REPORT" />
+      <Button fx:id="buttonHealthReport" layoutX="210.0" layoutY="225.0" mnemonicParsing="false" onAction="#onClickbuttonbuttonHealthReport" prefHeight="25.0" prefWidth="170.0" style="-fx-background-color: WHITE;" text="LIVESTOCK HEALTH REPORT" />
+    </children>
+</AnchorPane>
